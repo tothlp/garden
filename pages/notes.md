@@ -2,7 +2,7 @@
 layout: Post
 permalink: /notes
 feedformat: card
-title: Digital Garden
+title: Jegyzetek
 ---
 
 Az összes bejegyzés.
