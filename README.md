@@ -1,19 +1,16 @@
-# Jekyll Garden v 0.4!
-![Slide 4_3 - 1 (1)](https://user-images.githubusercontent.com/1788677/169704768-65c32d93-7884-47fa-b98c-bc8329acc6a7.png)
+# tothlp's digital garden
 
+A Digital Garden  [(see here)](https://github.com/MaggieAppleton/digital-gardeners?tab=readme-ov-file) built with  [Jekyll Garden](https://github.com/Jekyll-Garden/jekyll-garden.github.io) theme.
 
 Jekyll Garden theme lets you publish your [Obsidian](https://obsidian.md/) vault (or a subset of it) as a Jekyll static website. The theme is markdown and Obsidian setup friendly. You can use your own server or Github page to set up your SSG. Check out the demo.
 
-<a href="https://www.buymeacoffee.com/hiran" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height= "48" width="173"></a>
-
-## Documents and links
--  [Demo website](https://jekyll-garden.github.io/)
--  [Personal Website](https://hiran.in/)
--  [Feature List](https://jekyll-garden.github.io/post/features)
--  [How to Setup](https://jekyll-garden.github.io/post/how-to)
-
 ## Credits & Thanks
 -  See [Credits page](https://jekyll-garden.github.io/credits)
+
+## Additional resources
+
+- https://tomcritchlow.com/2019/02/17/building-digital-garden/
+- https://maggieappleton.com/garden-history
 
 ## Contribution
 
@@ -32,7 +29,3 @@ $ docker-compose up -d
 >
 > The directories which will be frequently modified, are mapped as local volumes so that any changes made to those will be immediately picked up by the server and built. If you fancy changing content in other folders regularly, feel free to add them to the `volumes` section in `docker-compose.yml` before deploying.
 
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
