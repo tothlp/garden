@@ -28,4 +28,4 @@ public interface InventoryResponse{
 List<InventoryResponse>getInventory();
 ```
 
-Ha esetleg még enummal is kellene szűrni: [[jpa-enum-szurofeltetel]]
+Ha esetleg még enummal is kellene szűrni: [[JPA - Enum szűrőfeltétel]]
