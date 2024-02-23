@@ -11,6 +11,7 @@ Jekyll Garden theme lets you publish your [Obsidian](https://obsidian.md/) vault
 
 - https://tomcritchlow.com/2019/02/17/building-digital-garden/
 - https://maggieappleton.com/garden-history
+- https://hiran.in/index.html
 
 ## Contribution
 
