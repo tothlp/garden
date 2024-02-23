@@ -35,8 +35,8 @@ copyright:
 
 # Set title and content for private & broken link tooltop
 privatelinks:
-  title: Private or Broken Links
-  msg: The page you're looking for is either not available or private!
+  title: Privát vagy törött linkek
+  msg: Az oldal amit keresel, vagy privát, vagy nem létezik! :(
 
 # Theme level preferences
 # To enable set "enabled : true" else, use "enabled:false"
@@ -69,6 +69,9 @@ collections:
     notes:
       output: true
       permalink: /note/:title
+    lists:
+      output: true
+      permalink: /list/:title
 
 markdown: kramdown
 
