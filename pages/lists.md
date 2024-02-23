@@ -1,8 +1,7 @@
 ---
 layout: Post
 permalink: /lists
-title: List of Lists
+title: Listák listája
 feedformat: row
 ---
 
-List of all list!
