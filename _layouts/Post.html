@@ -1,37 +1,12 @@
 ---
 ---
 
-<!-------------------------------------------------------------------------------------
-*
-* MIT License
-* Copyright (c) 2020 Raghuveer S, Hiran Venugopalan, Asim K T
-*
-* Permission is hereby granted, free of charge, to any person obtaining a copy
-* of this software and associated documentation files (the "Software"), to deal
-* in the Software without restriction, including without limitation the rights
-* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-* copies of the Software, and to permit persons to whom the Software is
-* furnished to do so, subject to the following conditions:
-*
-* The above copyright notice and this permission notice shall be included in all
-* copies or substantial portions of the Software.
-*
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-* SOFTWARE.
-*
------------------------------------------------------------------------------------->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="tothlp's Digital Garden" property="og:site_name" />
+    <meta content="Digital Garden" property="og:site_name" />
     <meta
         content="A digital garden for my notes, thoughts, experiences and ideas."
         property="og:description">
@@ -51,7 +26,7 @@
     {%- endif -%}
 
     <title>{{page.title}} - {{site.heading}}</title>
-    <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+    <!-- <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script> -->
     <link rel="canonical" href="{{site.url}}{{page.url}}" />
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/profile.png">
     <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png" sizes="16x16" />
@@ -82,7 +57,7 @@
                     {%- else -%}
                             <!--- Show Feed Part -->
                 <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                            <h5 class="meta-title"><a href="/">← Home</a></h5>
+                            <h5 class="meta-title"><a href="{{ site.baseurl }}/">← Home</a></h5>
                             <div class="jumbo">{{page.title}}</div>
                             {%- include Content.html -%}
                             {%- include Feed.html -%}
@@ -94,7 +69,7 @@
             <!--- Notes Feed Layout-->
             {%- if page.feedformat -%}
             <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                <h5 class="meta-title"><a href="/">← Home</a></h5>
+                <h5 class="meta-title"><a href="{{ site.baseurl }}/">← Home</a></h5>
                     <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
                     {%- include Feed.html -%}
@@ -132,7 +107,7 @@
             <!--- Post Feed Layout-->
             {%- if page.permalink == "/posts" -%}
             <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                <h5 class="meta-title"><a href="/">← Home</a></h5>
+                <h5 class="meta-title"><a href="{{ site.baseurl }}/">← Home</a></h5>
                 <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
                     {% for post in site.posts %}
