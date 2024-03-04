@@ -4,6 +4,7 @@ feed: show
 date: 23-02-2024
 ---
 
+## XSD
 Intellij IDEA Ultimate-ből elég egyszerűen lehet .xsd-ből java classokat generálni, csakhogy nem mindig mindenkinél van ultimate, for obvious reasons.
 
 Fel kell hozzá tenni a jaxb-t, JDK 11 óta nem része a JDK-nak.
@@ -62,6 +63,7 @@ xjc -d out -npa -no-header -XautoNameResolution -catalog catalog.xml data.xsd
 
 Ezzel a megoldással minden legenerálódik, ugyanabba a package-be, amit az xsd-ből kitalál az xjc. Legtökéletesebb megoldás nyilván az lenne, ha saját package-embe lehetne generálni, viszont ahhoz vszg. egy binding-ot kellene létrehozni, amiben minden egyes ütközésre megadjuk, hogy a 2 generálandó osztályból melyik legyen használva.
 
+## WSDL
 
 WSDL mehet intellij-ből, de fel kell tenni, pl `C:\jaxws-ri` alá:
 
