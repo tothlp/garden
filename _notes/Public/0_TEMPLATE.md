@@ -1,7 +1,7 @@
 ---
 title: Template
 feed: hide # show | hide
-date: dd-mm-yyyy
+date: 20-12-2024 #dd-mm-yyyy
 ---
 
 Ez pedig a szöveg.
