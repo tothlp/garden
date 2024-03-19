@@ -1,7 +1,7 @@
 ---
 title: Jasypt property encryption
 feed: show
-date: 03-19-2024
+date: 19-03-2024
 ---
 
 Property encryption-höz a JASYPT használható, legegyszerűbben a Springboot-starter segítségével. (https://github.com/ulisesbocchio/jasypt-spring-boot)
