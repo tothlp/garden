@@ -1,9 +1,10 @@
 ---
-title: OpenApi Springdoc setup
+title: OpenAPI Springdoc Setup
 feed: show
-date: 28-04-2024
+date: 28-03-2024
 ---
-> Doksi: https://springdoc.org
+
+Doksi: [https://springdoc.org](https://springdoc.org)
 
 Java17-tel, Springboot 3-mal a következő a minimum dependencia:
 ```kotlin
@@ -15,4 +16,4 @@ Ha kicsit fel akarjuk turbózni, be kell húzni a common-t is:
   implementation("org.springdoc:springdoc-openapi-starter-common:2.1.0")
 ```
 
-Ez azért jó, mert elősegíti a Kotlin használatát, pl. támogatott a [[dto-validation]] validációs annotációk segítségével a dokumentáció kibővítése. (lsd. min-max feltételek.)
+Ez azért jó, mert elősegíti a Kotlin használatát, pl. támogatott a [[Kotlin - DTO validálás]] validációs annotációk segítségével a dokumentáció kibővítése. (lsd. min-max feltételek.)

@@ -4,7 +4,7 @@ feed: show
 date: 19-03-2024
 ---
 
-Property encryption-höz a JASYPT használható, legegyszerűbben a Springboot-starter segítségével. (https://github.com/ulisesbocchio/jasypt-spring-boot)
+Property encryption-höz a JASYPT használható, legegyszerűbben a Springboot-starter segítségével. [https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
 
 A springboot-starer igazából ahhoz kell, hogy az alkalmazás tudja a titkosított property-ket dekódolni. A titkosításra magára a JASYPT-et kell használni, vagy valamilyen online tool, vagy a lib segítségével.
 
