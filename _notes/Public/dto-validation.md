@@ -12,6 +12,12 @@ Ami kell hozzá:
 implementation("org.springframework.boot:spring-boot-starter-validation")
 ```
 
+Nem muszáj, de esetleg kellhet:
+
+```kotlin
+implementation("jakarta.validation:jakarta.validation-api:3.0.2")
+```
+
 A DTO-ra kell controllerből a `@Valid`
 
 ```kotlin
@@ -75,4 +81,41 @@ data class Document(
 	@field:NotBlank var fajlnev: String,
 	var tartalom: String
 )
+```
+
+2024.03.28: Java 17-tel legújabb tapasztalat, hogy a sima classoknál simán kellenek a validációs annotációk, a data classoknál pedig a field-ekre kellenek. Jakartával működik, a jakarta-beli annotációkkal használjuk.
+
+Ha össze akarjuk szedni a hibákat, le lehet egy globális error handlerrel kezelni kifejezetten a validációs hibákat:
+
+```kotlin
+@RestControllerAdvice(annotations = [RestController::class, Controller::class])
+
+class ValidationErrorHandler {
+  @ResponseStatus(HttpStatus.BAD_REQUEST)
+  @ExceptionHandler(MethodArgumentNotValidException::class)
+  fun handleValidationExceptions(
+    ex: MethodArgumentNotValidException
+  ): Map<String, String?> {
+    val errors: MutableMap<String, String?> = HashMap()
+    ex.bindingResult.allErrors.forEach(Consumer { error: ObjectError ->
+      val fieldName = (error as FieldError).field
+      val errorMessage = error.code
+      errors[fieldName] = errorMessage
+    })
+    return errors
+  }
+}
+```
+
+Itt nyilván tök mindegy, hogy milyen formában adjuk vissza, a lényeg, hogy kinyerhetőek az üzenetek, a hibás property nevek, a hibás adatok, minden.
+
+Ha saját, egyedi formátumban akarjuk visszaadni a hibaüzeneteket, pl. ugyanaz a dto való a sima response-ra és a hibára, csak pl. egy error property-be akarjuk beírni, akkor nyilván nem lesz jó az automatikus validálás a `@Valid`-dal. Ilyenkor kézzel kell meghívni a validálást, a következő módon:
+
+```kotlin
+import jakarta.validation.Validator 
+
+// Very simplified example
+class TestService(private val validator: Validator) { 
+	fun validateTest(test: Test) = validator.validate(test)
+}
 ```
