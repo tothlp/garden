@@ -98,7 +98,14 @@
                         h3 {padding-top: 1rem; padding-bottom: 0rem;}
                     </style>                    
                     {%- endif -%}
-                    <h1>{{page.title}}</h1>
+                    <div class="title-container">
+                        <div class="title-left">
+                            <h1>{{ page.title }}</h1>
+                        </div>
+                        <div class="title-right">
+                            <p>{{ page.description }}</p>
+                        </div>
+                    </div>
                     {%- include Content.html -%}
                     {%- include Backlinks.html -%}
                     </div>

@@ -3902,3 +3902,40 @@ a.tag:hover {
     color:(--color-text-sub) !important;
   }
   
+  .title-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    padding-bottom: var(--padding-broad);
+  }
+  
+  .title-left {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    flex: 0 0 50%;
+    font-size: var(--text-large);
+    font-weight: var(--text-weight-bold);
+  }
+  
+  .title-right {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    flex: 0 0 50%;
+  }
+
+  .title-right p {
+    margin: 0px;
+    font-size: var(--text-s);
+    font-family: 'Newsreader';
+  }
