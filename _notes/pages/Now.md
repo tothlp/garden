@@ -22,4 +22,4 @@ próbálom a sétákat és a jógát visszaépíteni a mindennapjaimba.
 
 
 
-*Utoljára frissítve: 2024.02.24.*
+<i> Utoljára frissítve: {{page.date | date: "%Y.%m.%d." }} </i>
