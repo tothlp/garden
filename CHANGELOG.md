@@ -1,1 +1,1 @@
-See: [_notes/Public/changelog.md](_notes/Public/changelog.md)
+See: [_notes/pages/changelog.md](_notes/pages/changelog.md)
