@@ -1,7 +1,7 @@
 ---
 title: Games
 format: list
-description: Egy nem teljes lista azokról a játékokról, amiket kitoltam az évek során.
+description: Egy nem teljes lista azokról a játékokról, amiket toltam az évek során.
 permalink: /games
 ---
 
@@ -17,11 +17,19 @@ permalink: /games
           <p class="item-title">{{ game.title }} </p>
           <p class="item-icon">
               {% if game.platform == "PS" %}
-                <i class="fa-brands fa-playstation"></i>
+                <p title="PlayStation"><i class="fa-brands fa-playstation"></i></p>
               {% elsif game.platform == "PC" %}
-                <i class="fa-solid fa-desktop" alt="PC"></i>
+                <p title="PC"><i class="fa-solid fa-desktop" alt="PC"></i></p>
               {% elsif game.platform == "XBOX" %}
-                <i class="fa-brands fa-xbox"></i>
+                <p title="Xbox"><i class="fa-brands fa-xbox"></i></p>
+              {% endif %}
+              {% if game.platform == "APPLE" %}
+                <p title="Apple (iOS, tvOS, stb.)"><i class="fa-brands fa-apple"></i></p>
+              {% endif %}
+          </p>
+          <p class="item-icon">
+              {% if game.unfinished %}
+                <p title="Nem befejezett"><i class="fa-solid fa-spinner"></i></p>
               {% endif %}
           </p>
       </div>
