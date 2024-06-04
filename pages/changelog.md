@@ -1,6 +1,7 @@
 ---
 title: Changelog
-feed: hide
+layout: Post
+content-type: static
 permalink: /changelog
 ---
 

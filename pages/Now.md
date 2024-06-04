@@ -1,8 +1,8 @@
 ---
 title: Now
-feed: hide
 permalink: /now
-format: Page
+layout: Post
+content-type: static
 ---
 Inspired by [Derek Sivers](https://sive.rs/nowff)
 

@@ -1,7 +1,7 @@
 ---
 layout: Post
 permalink: /lists
-title: Listák listája
+title: Kollekciók
 feedformat: row
 ---
 

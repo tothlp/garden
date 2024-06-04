@@ -1,8 +1,10 @@
 ---
 title: Games
-format: list
+content-type: static
 description: Egy nem teljes lista azokról a játékokról, amiket toltam az évek során.
 permalink: /games
+layout: Post
+format: list
 ---
 
 {% assign games_by_year = site.data.games | reverse | group_by:"year" %}
