@@ -18,8 +18,4 @@ Nagyon felkeltette az érdeklődésem ez a *Today I learnt* "mozgalom", illetve 
 Munkán kívül elkezdtem a Duolingón dánul tanulni, ami nagyon furcsa érzés, mert (oké, hogy használom az angolt napi sziten, de) ezer éve nem tanultam nyelvet. Ezen kívül érzem és látom, hogy szükségem van a mozgásra, szóval 
 próbálom a sétákat és a jógát visszaépíteni a mindennapjaimba.
 
-
-
-
-
-<i> Utoljára frissítve: {{page.date | date: "%Y.%m.%d." }} </i>
+<i> Utoljára frissítve: {% last_modified_at %} </i>

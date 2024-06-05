@@ -63,6 +63,7 @@ plugins:
   - jekyll-feed 
   - jekyll-sitemap 
   - jekyll-tidy
+  - jekyll-last-modified-at
     
 ## Enable Collections
 ## Suggested collects are "notes" "lists" and "blog"
@@ -89,17 +90,11 @@ sass:
 defaults:
   - scope:
       path: ""
-      type: posts
-    values:
-      layout: Post
-      permalink: /post/:title
-      content-type: post
-  - scope:
-      path: ""
       type: notes
     values:
       layout: Post
       content-type: notes
+      permalink: /note/:title
 
 
 # Exclude from processing.
@@ -124,3 +119,6 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+last-modified-at:
+  date-format: '%Y.%m.%d.'
