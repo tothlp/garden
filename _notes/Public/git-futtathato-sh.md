@@ -4,7 +4,6 @@ feed: show
 date: 23-02-2024
 ---
 
-> Forrás: [https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git](https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git)
 
 ## Probléma
 
@@ -16,3 +15,4 @@ git update-index --chmod=+x path/to/file
 
 Így elvileg futtatható lesz, nem kell chmodolni. 😲 Arra érdemes figyelni, hogy ezt csak olyan fájlokra tudjuk futtatni, amik már verziókezelve lettek. Viszont, ha nem szeretnénk erre egy külön commit-ot elpocsékolni, akkor simán lehet squasholni egy másikkal. Én pl. a CI init kommitját és a gradle futtatást szeretem egybe squasholni.
 
+> Forrás: [https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git](https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git)

@@ -6,7 +6,9 @@ date: 28-03-2024
 
 Doksi: [https://springdoc.org](https://springdoc.org)
 
-Java17-tel, Springboot 3-mal a következő a minimum dependencia:
+Java17-tel, Springboot 3-mal lett a következő megoldás kipróbálva. A használathoz szükséges minimum dependencia:
+
+
 ```kotlin
 implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
 ```
