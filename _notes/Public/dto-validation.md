@@ -83,7 +83,7 @@ data class Document(
 )
 ```
 
-2024.03.28: Java 17-tel legújabb tapasztalat, hogy a sima classoknál simán kellenek a validációs annotációk, a data classoknál pedig a field-ekre kellenek. Jakartával működik, a jakarta-beli annotációkkal használjuk.
+**2024.03.28**: Java 17-tel legújabb tapasztalat, hogy a sima classoknál simán kellenek a validációs annotációk, a data classoknál pedig a field-ekre kellenek. Jakartával működik, a jakarta-beli annotációkkal használjuk.
 
 Ha össze akarjuk szedni a hibákat, le lehet egy globális error handlerrel kezelni kifejezetten a validációs hibákat:
 
@@ -119,3 +119,6 @@ class TestService(private val validator: Validator) {
 	fun validateTest(test: Test) = validator.validate(test)
 }
 ```
+
+**2024.06.17:**
+Bővebb infók: [https://jakarta.ee/learn/docs/jakartaee-tutorial/current/beanvalidation/bean-validation/bean-validation.html](https://jakarta.ee/learn/docs/jakartaee-tutorial/current/beanvalidation/bean-validation/bean-validation.html)
