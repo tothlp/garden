@@ -59,3 +59,7 @@
 .item-icon {
     margin: 0; /* adjust as needed */
 }
+
+.icon-left {
+    margin-right: 4px;
+}

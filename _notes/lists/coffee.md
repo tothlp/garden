@@ -1,9 +1,19 @@
 ---
 title: Coffee
 format: list
-description: Saját és kapott receptek
+description: “Az ember nagy dolgokat vitt már végbe, de nem azért, mert annyira okos, hanem mert van keze, és tud kávét főzni.” /Flash Rosenberg/
 permalink: /coffee
 ---
+
+## Kávézók
+
+Sajnos a lista nem frissül automatikusan, de igyekszem up-to-date tartani.
+
+[Coffee Trip]({{ site.data.cafe.url }})
+
+## Receptek
+
+Saját és kapott receptek, főzzétek szeretettel!
 
 * [[Kotyi]]
 * [[Gyors Cold Brew]]
