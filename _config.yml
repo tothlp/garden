@@ -55,6 +55,8 @@ preferences:
   homepage: 
     enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
 
+about_profile_image: /assets/img/profile.jpg
+
 encoding: utf-8
 
 # Build settings

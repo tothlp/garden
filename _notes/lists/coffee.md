@@ -5,11 +5,18 @@ description: “Az ember nagy dolgokat vitt már végbe, de nem azért, mert ann
 permalink: /coffee
 ---
 
-## Kávézók
+## Felszerelés
 
-Sajnos a lista nem frissül automatikusan, de igyekszem up-to-date tartani.
-
-[Coffee Trip]({{ site.data.cafe.url }})
+* **Brewer:** 
+  * Aeropress
+  * Nanopresso
+  * Prismo
+  * Bialetti Moka Express
+  * Hario Mizudashi
+  * French Press
+* **Scale:** Timemore Black Mirror Basic
+* **Grinder:** 1Zpresso JX
+* **Kettle:** Tchibo (98096) elektromos hattyúnyakú vízforraló
 
 ## Receptek
 
@@ -23,3 +30,9 @@ Saját és kapott receptek, főzzétek szeretettel!
 * [[Mizudashi]]
 * [[Cascara]]
 * [[Cold Brew Tonic]]
+
+## Kávézók
+
+Sajnos a lista nem frissül automatikusan, de igyekszem up-to-date tartani.
+
+[Coffee Trip]({{ site.data.cafe.url }})
