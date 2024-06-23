@@ -1,4 +1,9 @@
-# tothlp's digital garden
+# tothlp.github.io
+Landing page
+
+![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Ftothlp.hu)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/tothlp/tothlp.github.io/master?label=last%20released)
+![GitHub deployments](https://img.shields.io/github/deployments/tothlp/tothlp.github.io/github-pages?label=state)
 
 A Digital Garden  [(see here)](https://github.com/MaggieAppleton/digital-gardeners?tab=readme-ov-file) built with  [Jekyll Garden](https://github.com/Jekyll-Garden/jekyll-garden.github.io) theme.
 
