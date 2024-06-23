@@ -148,7 +148,72 @@
     background-size: cover;
     background-position: center;
     background-repeat: repeat, no-repeat;
-    -moz-box-shadow: inset 0 0 20px #636161;
-    -webkit-box-shadow: inset 0 0 20px #636161;
-    box-shadow: inset 0 0 20px #636161;
+    -moz-box-shadow: inset 0 0 40px #636161;
+    -webkit-box-shadow: inset 0 0 40px #636161;
+    box-shadow: inset 0 0 40px #636161;
   }
+
+/* Styles for homepage */
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.intro .intro-text {
+    line-height: 1.2;
+}
+
+.intro h1 {
+    font-size: 1.9rem;
+    margin-bottom: 0px;
+    line-height: 1;
+    padding-bottom: 4px;
+}
+
+.intro h2 {
+    font-size: 1.4rem;
+    font-weight: 100;
+    padding-top: 0px;
+    padding-bottom: 16px;
+}
+
+.intro .contacts {
+    justify-items: right;
+    display: flex;
+    gap: 16px;
+}
+
+
+.intro .contacts .contact-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: var(--color-text-sub);
+    transition: background-color 0.3s;
+    font-size: 32px;
+}
+
+.intro .contacts .contact-item:hover {
+    background-color: var(--color-bg-main);
+    border: 1px solid;
+}
+
+.contact-item a {
+    color: var(--color-bg-main) !important; 
+}
+
+.contact-item a:hover {
+    color: var(--color-text-main) !important; 
+}
+
+.contact-item a[href^="http"] {
+    background-image: none;
+    padding-right: 0px;
+}

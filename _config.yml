@@ -23,11 +23,11 @@ url: "https://tothlp.hu" # the base hostname & protocol for your site, e.g. http
 
 # If you want to install this jekyll in a subpath (eg /digitalgarden) set it here. 
 # Else keep it Empty (DON'T PUT /; Keep it empty)
-baseurl: "/garden"
+baseurl: ""
 
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
-heading:  Digital Garden # Change this 
+heading:  Tóth László # Change this 
 content: "A digital garden for my notes, thoughts, experiences and ideas."
 copyright:  
   year: © 2024

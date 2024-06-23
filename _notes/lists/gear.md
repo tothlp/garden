@@ -1,8 +1,8 @@
 ---
-title: Gear
+title: Tools
 format: list
 description: Általam  használt hardverek és szoftverek
-permalink: /gear
+permalink: /tools
 ---
 
 ## <i class="fas fa-microchip"></i> Hardware

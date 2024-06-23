@@ -2,22 +2,18 @@
   icon: far fa-campground
   url: https://tothlp.hu
   description: |
-    Ez az oldal, amit éppen nézel, egy Jekyll alapú statikus weboldal. Azért jött létre, mert szerettem volna az interneten egy zugot, ahol össze vannak szedve az elérhetőségeim és néhány információ rólam. 
+    Ez a project azért jött létre, mert szerettem volna az interneten egy zugot, ahol össze vannak szedve az elérhetőségeim és néhány információ rólam. Ezen kívül 
+    [Monica Powell](https://github.com/readme/guides/private-documentation) cikke által inspirálva egyfajta második agyként is használom.
+
+    A színfalak mögött ez egy [Jekyll](https://jekyllrb.com) által generált, teljesen statikus weboldal, amit a [GitHub Pages](https://pages.github.com) szolgál ki. 
+    A [Jekyll Garden](https://github.com/Jekyll-Garden/jekyll-garden.github.io) témát [Hiran Venugopalan](https://hiran.in) készítette, 
+    azonban néhány helyen módosítottam rajta, hogy jobban illeszkedjen az igényeimhez.
+    Az oldalon fellelhető ikonok a [Font Awesome](https://fontawesome.com) és a [Simple Icons](https://simpleicons.org) oldalakról származnak, ezek segítségével készült a logo is.
     Több technikai infó a repóban található.
   additional_links:
     - title:  Github repo
       icon: fab fa-github
       url: https://github.com/tothlp/tothlp.github.io
-- title: Digital Garden
-  icon: far fa-brain
-  link: https://tothlp.hu/garden
-  description: |
-    Ez egy elég új kezdeményezés, amit [Monica Powell](https://github.com/readme/guides/private-documentation) cikke által inspirálva kezdtem el. 
-    Egyfajta második agyam, ahol az "új tanulásaimat" és gondolataimat dokumentálom.
-  additional_links:
-    - title:  Github repo
-      icon: fab fa-github
-      url: https://github.com/tothlp/garden
 - title: SSHanyi
   icon: far fa-network-wired
   description: |
